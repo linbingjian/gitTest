@@ -1,0 +1,13 @@
+json(--save);
+ajax请求，http请求，线程:javascript引擎线程,界面渲染线程,浏览器事件触发线程，异步
+form提交数据，req.query?req.body?
+vue中的路由：component=组件名；react中的路由：component={组件名}；
+this.$router.beforeEach()放在created里，第一次触发，后面也会触发？组件卸载加载
+代理跨域：http://localhost:8080/lg/listmore.json?pageNo=0&pageSize=15
+后端发出的post请求怎么看？
+"header":{"content-type":"application/json"
+headers : { 'Content-Type' : 'application/x-www-form-urlencoded' }
+
+
+https://ju.taobao.com/json/tg/ajaxGetItemsV2.json?callback=define&page=1&psize=20&type=0&algorithm_scene=juWapHome&frontCatId=
+https://ju.taobao.com/json/tg/ajaxGetItemsV2.json?callback=define&page=1&psize=20&type=0&algorithm_scene=juWapHome&frontCatId=3000
